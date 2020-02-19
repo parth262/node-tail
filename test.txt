@@ -1,0 +1,10 @@
+Objective: 
+This is a small web app aimed to test your ReactJs skills.
+Description:
+Create and deploy a react web app, which reads product data from a json file (attached separately) and displays it as per the following instructions:
+1. When the app loads it first reads data from products.json file (which should be in the root directory) and stores it in redux store. All changes from here on will be done in the redux store and the original json file shouldn’t be modified.
+2. When the application is loaded in the browser, on `/` route it displays a table of products. 
+3. For each product row in the table, you need to display its name, weight, availability and isEditable.
+4. IsEditable column is shown as a button with text `Edit` if `isEditable` flag is true this field should remain empty if the isEditable flag is false.
+5. When a user clicks on edit button, you should take them to `/edit-product` page/route. 
+6. Edit product route is a form with the following fields:
